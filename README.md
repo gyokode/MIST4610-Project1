@@ -4,10 +4,9 @@
 61608 Group 6
 
 **Team Members**
-
-1. Matheo Brooks @matheobrooks-cpu
-2. Luka Gangemi @lukagangemi
-3. Gio Kim
+1. Gio Kim @gyokode
+2. Matheo Brooks @matheobrooks-cpu
+3. Luka Gangemi @lukagangemi
 4. Luke Piazza @lukepiazza479
 5. Amsal Maknojia
 
