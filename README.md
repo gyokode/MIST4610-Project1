@@ -23,8 +23,6 @@ Our project is a database for managing data at a boutique fitness studio. Our co
 * **Equipment Management:** `Equipment` is linked to `Rooms` via the `Rooms_has_Equipment` associative entity. It is also tied to `Vendors` through `Equipment_Purchase` records to track the lifecycle of studio assets.
 * **Management Hierarchy:** The `Trainers` table utilizes a **recursive relationship** via `supervisor_id`, allowing the database to represent a clear reporting structure among the staff.
 
----
-
 ## Data Dictionary
 | Entity | Attribute | Data Type | Role | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -35,8 +33,6 @@ Our project is a database for managing data at a boutique fitness studio. Our co
 | **Class_Session** | session_id | VARCHAR(10) | PK | Unique ID for a specific class time slot. |
 | **Rooms** | room_id | INT | PK | Unique identifier for a studio room. |
 | **Equipment** | equipment_id | VARCHAR(10) | PK | Unique ID for specific gym equipment pieces. |
-
----
 
 ## Ten Queries
 We have developed 10 unique queries (6 complex, 4 simple) to provide actionable business intelligence.
@@ -83,8 +79,6 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * **Managerial Justification:** Clarifies the internal organizational chart for better communication and accountability.
 * **SQL:** `SELECT t1.first_name AS Staff, t2.first_name AS Manager FROM Trainers t1 LEFT JOIN Trainers t2 ON t1.supervisor_id = t2.trainer_id;`
 
----
-
 ## Query Feature Matrix
 | Query | Joins | Subqueries | Group By | Aggregate Functions | Sorting |
 | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -99,5 +93,5 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 ---
 
 ## Database Information
-* **Database Name:** [Insert your exact MySQL Database Name here]
+* **Database Name:** ns_Sp26_61608_Group6
 * **Stored Procedures:** All queries are implemented as stored procedures following the `TP_Qx` format (e.g., `CALL TP_Q1();`).
