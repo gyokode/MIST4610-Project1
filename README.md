@@ -1,12 +1,15 @@
-# MIST4610-Project1
+# MIST4610-Group-Project-1
 
-#Team Name
+# Team Name
 61608 Group 6
 
-Team Members
+**Team Members**
 
-Gio Kim @gyokode
-Matheo Brooks @matheobrooks-cpu
-Luka Gangemi @lukagangemi
-Luke Piazza @lukepiazza479
-Amsal Maknojia
+1. Matheo Brooks @matheobrooks-cpu
+2. Luka Gangemi @lukagangemi
+3. Gio Kim
+4. Luke Piazza @lukepiazza479
+5. Amsal Maknojia
+
+# Scenario Description
+Our project is a database for managing data at a boutique fitness studio. Our core entity is the Members table, that keeps data like their ID number, their name, and their contact information. The member entity has relationships with payment and membership information, feedback, attendance, and the types of classes that the members attend. 
