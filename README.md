@@ -13,7 +13,7 @@
 Our project is a database for managing data at a boutique fitness studio. Our core entity is the Members table, that keeps data like their ID number, their name, and their contact information. The member entity has relationships with payment and membership information, feedback, attendance, and the types of classes that the members attend. 
 
 # Data Model
-<img width="1504" height="945" alt="Group Project 1 Data Model" src="https://github.com/user-attachments/assets/0abeb43d-8a1e-4c98-bd30-bac923a01b7e" />
+<img width="1801" height="1430" alt="MIST 4610 Updated Data Model" src="https://github.com/user-attachments/assets/b274686e-49d6-47d6-9e57-7603cd0105f6" />
 
 ### Relationship Explanation
 * **Membership Tiers:** A **one-to-many** relationship exists between `Memberships` and `Members`, as many members can subscribe to the same plan level.
