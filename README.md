@@ -16,12 +16,9 @@ Our project is a database for managing data at a boutique fitness studio. Our co
 <img width="1801" height="1430" alt="MIST 4610 Updated Data Model" src="https://github.com/user-attachments/assets/b274686e-49d6-47d6-9e57-7603cd0105f6" />
 
 ### Data Model Explanation
-* **Membership Tiers:** A **one-to-many** relationship exists between `Memberships` and `Members`, as many members can subscribe to the same plan level.
-* **Member Activity:** `Members` has a **one-to-many** relationship with `Member_Payments`, `Attendance_Logs`, and `Feedback`, allowing the studio to track a history of interactions for each individual.
-* **Session Scheduling:** `Class_Session` acts as the hub for daily operations, linking `Classes`, `Trainers`, and `Rooms` in **one-to-many** relationships.
-* **Attendance Tracking:** `Attendance_Logs` is the associative entity between `Members` and `Class_Session` to track precisely who is in the studio at any given time.
-* **Equipment Management:** `Equipment` is linked to `Rooms` via the `Rooms_has_Equipment` associative entity. It is also tied to `Vendors` through `Equipment_Purchase` records to track the lifecycle of studio assets.
-* **Management Hierarchy:** The `Trainers` table utilizes a **recursive relationship** via `supervisor_id`, allowing the database to represent a clear reporting structure among the staff.
+* Our data model represents the operations of a boutique fitness studio and the relationships between its core functional areas. Members belong to specific membership plans, which is shown through the many‑to‑one relationship between Members and Memberships, and each member can make multiple payments recorded in the Member_Payments table. Members attend scheduled fitness classes, so we created an associative entity, Attendance_Logs, to capture the many‑to‑many relationship between Members and Class_Session, including check‑in times and attendance status. Class_Session itself branches from both Classes and Trainers, since each scheduled session is tied to a class type, a trainer, a room, and a specific time window. Trainers can lead many sessions and also receive feedback from members, which is represented by the Feedback table linking Members, Trainers, and Class_Session.
+The physical layout of the studio is represented through Rooms and Equipment. Rooms_has_Equipment serves as an associative entity that shows which equipment is located in which room, along with quantities and inspection dates. Equipment is purchased from external vendors, so Equipment_Purchase captures the many‑to‑many relationship between Vendors and Equipment, including purchase dates, unit costs, and quantities. Altogether, the model provides a complete view of how members interact with classes, trainers, rooms, and equipment, while also supporting operational needs such as payments, scheduling, feedback, and vendor management.
+
 
 ## Data Dictionary
 | Entity | Attribute | Data Type | Role | Description |
