@@ -1,4 +1,4 @@
-# MIST4610-Group-Project-1
+# Team 6 MIST4610-Group-Project-1
 
 # Team Name
 61608 Group 6
