@@ -15,7 +15,7 @@ Our project is a database for managing data at a boutique fitness studio. Our co
 # Data Model
 <img width="1801" height="1430" alt="MIST 4610 Updated Data Model" src="https://github.com/user-attachments/assets/b274686e-49d6-47d6-9e57-7603cd0105f6" />
 
-### Relationship Explanation
+### Data Model Explanation
 * **Membership Tiers:** A **one-to-many** relationship exists between `Memberships` and `Members`, as many members can subscribe to the same plan level.
 * **Member Activity:** `Members` has a **one-to-many** relationship with `Member_Payments`, `Attendance_Logs`, and `Feedback`, allowing the studio to track a history of interactions for each individual.
 * **Session Scheduling:** `Class_Session` acts as the hub for daily operations, linking `Classes`, `Trainers`, and `Rooms` in **one-to-many** relationships.
