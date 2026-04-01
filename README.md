@@ -10,7 +10,7 @@
 4. Luke Piazza @lukepiazza479
 
 # Scenario Description
-Our project is a database for managing data at a boutique fitness studio. Our core entity is the Members table, that keeps data like their ID number, their name, and their contact information. The member entity has relationships with payment and membership information, feedback, attendance, and the types of classes that the members attend. 
+Our project is a database for managing data at a boutique fitness studio. Our core entity is the Members table, that keeps data like their ID number, their name, and their contact information. The member entity has relationships with payment and membership information, feedback, attendance, and the types of classes that the members attend. We also included entities related to equipment, vendors, and purchases to more accurately capture the scope of the boutique.
 
 # Data Model
 <img width="1801" height="1430" alt="MIST 4610 Updated Data Model" src="https://github.com/user-attachments/assets/b274686e-49d6-47d6-9e57-7603cd0105f6" />
