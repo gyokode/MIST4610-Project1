@@ -3,7 +3,7 @@
 # Team Name
 61608 Group 6
 
-**Team Members**
+**Team Members:**
 1. Gio Kim @gyokode
 2. Matheo Brooks @matheobrooks-cpu
 3. Luka Gangemi @lukagangemi
