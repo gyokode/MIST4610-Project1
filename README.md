@@ -55,7 +55,8 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 ### 2. Complex Queries
 
 **Q5: Which classes had the highest attendance?**
-* **Managerial Justification:** This query returns the name of the class, the ID of the session, the start time, and the attendance count for the different classes offered.
+* **Managerial Justification:** This query returns the name of the class, the ID of the session, the start time, and the attendance count for the different classes offered in descending order. This allows managers to see which classes are drawing in the biggest crowds, which could impact class pricing and scheduling. For example, in this scenario, the studio may want to increase class sessions for Yoga Flow, Boxing Fundamentals, and Meditation & Breathwork to maximize attendance and revenue since they were mosst most popular.
+
 *  **SQL:** `SELECT Classes.class_name, Class_Session.session_id, Class_Session.start_datetime, COUNT(Attendance_Logs.Members_member_id) AS attendance_count FROM Class_Session JOIN Classes ON 
 Class_Session.class_id = Classes.class_id LEFT JOIN Attendance_Logs ON Class_Session.session_id = Attendance_Logs.Class_Session_session_id AND Attendance_Logs.status = 'Present'
 GROUP BY Classes.class_name, Class_Session.session_id, Class_Session.start_datetime ORDER BY attendance_count DESC;`
