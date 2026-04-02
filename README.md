@@ -22,15 +22,18 @@ The physical layout of the studio is represented through Rooms and Equipment. Ro
 
 
 ## Data Dictionary
-| Entity | Attribute | Data Type | Role | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| **Members** | member_id | VARCHAR(10) | PK | Unique ID for each gym member. |
-| **Members** | membership_id | VARCHAR(10) | FK | References the member's specific plan. |
-| **Trainers** | trainer_id | VARCHAR(10) | PK | Unique ID for each instructor. |
-| **Trainers** | supervisor_id | VARCHAR(10) | FK | Self-reference to the trainer's manager. |
-| **Class_Session** | session_id | VARCHAR(10) | PK | Unique ID for a specific class time slot. |
-| **Rooms** | room_id | INT | PK | Unique identifier for a studio room. |
-| **Equipment** | equipment_id | VARCHAR(10) | PK | Unique ID for specific gym equipment pieces. |
+<img width="1289" height="806" alt="image" src="https://github.com/user-attachments/assets/9ae82b22-5b47-4531-9b01-8b5218ea2a59" />
+<img width="1323" height="1122" alt="image" src="https://github.com/user-attachments/assets/13593aac-5572-41e4-a0e1-d8feb78b1905" />
+<img width="1288" height="1161" alt="image" src="https://github.com/user-attachments/assets/aad130db-ff04-4ab6-ad8f-f954d0caf275" />
+<img width="1310" height="1301" alt="image" src="https://github.com/user-attachments/assets/9bf6889b-d80f-4c47-9626-c869092723f9" />
+<img width="1270" height="1357" alt="image" src="https://github.com/user-attachments/assets/54d41350-3e68-42bb-ad82-0ff8e9d58d36" />
+<img width="1358" height="1164" alt="image" src="https://github.com/user-attachments/assets/e0441814-c490-4599-8efa-3c969a90c6a0" />
+
+
+
+
+
+
 
 ## Ten Queries
 We have developed 10 unique queries (6 complex, 4 simple) to provide actionable business intelligence.
