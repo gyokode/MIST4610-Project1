@@ -70,10 +70,8 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 *  <img width="1949" height="1102" alt="image" src="https://github.com/user-attachments/assets/26fd2228-f3de-4dea-b521-2c0fb21eea0f" />
 
 
-**Q6: Which trainers get the best ratings**
-* **Managerial Justification:** Identifies which trainers do the best jobs in the eyes of the customer. This could lead to more hours, bonuses, raises, and other decisions related to the trainer's employment and the finances of the boutique.
-* <img width="2088" height="699" alt="image" src="https://github.com/user-attachments/assets/267e2634-41d1-48af-b96d-7f6a26830188" />
-
+**Q6: ?????**
+* **Managerial Justification:** 
 
 
 **Q7: Trainers with more than 3 sessions and their average feedback rating.**
