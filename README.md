@@ -26,7 +26,7 @@ The physical layout of the studio is represented through Rooms and Equipment. Ro
 <img width="1323" height="1122" alt="image" src="https://github.com/user-attachments/assets/13593aac-5572-41e4-a0e1-d8feb78b1905" />
 <img width="1288" height="1161" alt="image" src="https://github.com/user-attachments/assets/aad130db-ff04-4ab6-ad8f-f954d0caf275" />
 <img width="1310" height="1301" alt="image" src="https://github.com/user-attachments/assets/9bf6889b-d80f-4c47-9626-c869092723f9" />
-<img width="1270" height="1357" alt="image" src="https://github.com/user-attachments/assets/54d41350-3e68-42bb-ad82-0ff8e9d58d36" />
+<img width="1293" height="1392" alt="image" src="https://github.com/user-attachments/assets/01fa583e-ab04-43f1-a11a-20ee0d0bfc77" />
 <img width="1358" height="1164" alt="image" src="https://github.com/user-attachments/assets/e0441814-c490-4599-8efa-3c969a90c6a0" />
 
 
