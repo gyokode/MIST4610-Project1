@@ -90,10 +90,6 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * **Managerial Justification:** Facilitates room setup audits and ensures equipment is distributed correctly for scheduled classes.
 * **SQL:** `SELECT r.room_name, e.equipment_name, re.quantity_in_room FROM Rooms r JOIN Rooms_has_Equipment re ON r.room_id = re.room_id JOIN Equipment e ON re.equipment_id = e.equipment_id;`
 
-**Q11: Employee-to-Manager reporting list.**
-* **Managerial Justification:** Clarifies the internal organizational chart for better communication and accountability.
-* **SQL:** `SELECT t1.first_name AS Staff, t2.first_name AS Manager FROM Trainers t1 LEFT JOIN Trainers t2 ON t1.supervisor_id = t2.trainer_id;`
-
 ## Query Feature Matrix
 | Query | Joins | Subqueries | Group By | Aggregate Functions | Sorting |
 | :--- | :---: | :---: | :---: | :---: | :---: |
