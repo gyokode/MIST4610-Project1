@@ -50,9 +50,9 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * **Managerial Justification:** Helps management identify which staff members are still in their introductory or training phases.
 * **SQL:** `SELECT first_name, last_name, hire_date FROM Trainers WHERE hire_date > '2024-01-01';`
 
-**Q2: Find all classes with "Hard" difficulty level.**
-* **Managerial Justification:** Ensures that the studio is offering enough high-intensity options for advanced members.
-* **SQL:** `SELECT class_name FROM Classes WHERE difficulty = 'Hard';`
+**Q2: Total amount spent on equipment purchases per vendor, ordered by spend descending.**
+* **Managerial Justification:** This query allows managers to see which vendors the gym relies on most financially. High-spending vendors could be candidates for renegotiated contracts and volume discounts, while low-spending vendors could be candidates for consolidation.
+* <img width="979" height="433" alt="Screenshot 2026-04-02 at 6 03 48 PM" src="https://github.com/user-attachments/assets/1d9af581-e72d-41f5-bd10-4419c217e90d" />
 
 **Q3: Count total active members.**
 * **Managerial Justification:** Provides an immediate snapshot of the studio's current market reach and growth.
