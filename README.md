@@ -78,7 +78,7 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * **Managerial Justification:** Management can evaluate trainer performance by combining session volume with member satisfaction scores. High sessions with low ratings flags trainers who may need coaching or supervision.
 * <img width="962" height="528" alt="Screenshot 2026-04-02 at 6 20 45 PM" src="https://github.com/user-attachments/assets/d85a5fb1-50c7-4dcf-8cf0-198599fe6ea7" />
 
-**Q8: This query lists each trainer with their average member feedback rating, total number of reviews received, and an automatically assigned performance tier based on that rating.**
+**Q8: Lists each trainer with their average member feedback rating, total number of reviews received, and an automatically assigned performance tier based on that rating.**
 * **Managerial Justification:** This gives management a clear view of trainer performance without manually interpreting raw scores. Top performers can be rewarded, while those flagged as "Needs Improvement" or "At Risk" can be prioritized for coaching or additional supervision.
 * <img width="967" height="593" alt="Screenshot 2026-04-02 at 7 06 37 PM" src="https://github.com/user-attachments/assets/0f11baa9-18e6-482e-9bda-1fcc60947c87" />
 `
