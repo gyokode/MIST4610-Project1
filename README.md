@@ -78,9 +78,10 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * **Managerial Justification:** Management can evaluate trainer performance by combining session volume with member satisfaction scores. High sessions with low ratings flags trainers who may need coaching or supervision.
 * <img width="962" height="528" alt="Screenshot 2026-04-02 at 6 20 45 PM" src="https://github.com/user-attachments/assets/d85a5fb1-50c7-4dcf-8cf0-198599fe6ea7" />
 
-**Q8: Members who have never attended a class.**
-* **Managerial Justification:** Identifies "ghost members" for targeted re-engagement campaigns to reduce churn.
-* **SQL:** `SELECT first_name, last_name FROM Members WHERE member_id NOT IN (SELECT member_id FROM Attendance_Logs);`
+**Q8: This query lists each trainer with their average member feedback rating, total number of reviews received, and an automatically assigned performance tier based on that rating.**
+* **Managerial Justification:** This gives management a clear view of trainer performance without manually interpreting raw scores. Top performers can berewarded, while those flagged as "Needs Improvement" or "At Risk" can be prioritized for coaching or additional supervision.
+* <img width="967" height="593" alt="Screenshot 2026-04-02 at 7 06 37 PM" src="https://github.com/user-attachments/assets/0f11baa9-18e6-482e-9bda-1fcc60947c87" />
+`
 
 **Q9: Top 3 most popular classes by attendance.**
 * **Managerial Justification:** Directs management to add more sessions for the most popular class types.
