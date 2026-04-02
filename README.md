@@ -28,6 +28,13 @@ The physical layout of the studio is represented through Rooms and Equipment. Ro
 <img width="1310" height="1301" alt="image" src="https://github.com/user-attachments/assets/9bf6889b-d80f-4c47-9626-c869092723f9" />
 <img width="1293" height="1392" alt="image" src="https://github.com/user-attachments/assets/01fa583e-ab04-43f1-a11a-20ee0d0bfc77" />
 <img width="1358" height="1164" alt="image" src="https://github.com/user-attachments/assets/e0441814-c490-4599-8efa-3c969a90c6a0" />
+<img width="1319" height="1174" alt="image" src="https://github.com/user-attachments/assets/2577728b-ba16-4ec7-a9b3-dcb130b292f5" />
+<img width="1333" height="626" alt="image" src="https://github.com/user-attachments/assets/32885db1-b852-442d-9cbc-b05373c2eebc" />
+<img width="1322" height="696" alt="image" src="https://github.com/user-attachments/assets/b2a671dc-c75f-4ea4-814d-80e4567624be" />
+<img width="1329" height="555" alt="image" src="https://github.com/user-attachments/assets/a3feb206-48ef-47ed-a713-8834b3283b4d" />
+<img width="1298" height="943" alt="image" src="https://github.com/user-attachments/assets/10e31701-106b-422c-b7c5-55b33f8fcee2" />
+<img width="1314" height="829" alt="image" src="https://github.com/user-attachments/assets/644f71ef-af2a-4a0b-8444-cf092b38a2a9" />
+<img width="1301" height="862" alt="image" src="https://github.com/user-attachments/assets/8682a4a9-5ba1-4e16-970c-2a488c3fc4f8" />
 
 
 
