@@ -55,8 +55,9 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * <img width="979" height="433" alt="Screenshot 2026-04-02 at 6 03 48 PM" src="https://github.com/user-attachments/assets/1d9af581-e72d-41f5-bd10-4419c217e90d" />
 
 **Q3: Count total active members.**
-* **Managerial Justification:** Provides an immediate snapshot of the studio's current market reach and growth.
-* **SQL:** `SELECT COUNT(member_id) AS Total_Members FROM Members;`
+* **Managerial Justification:** Provides an immediate snapshot of the studio's current market reach and growth. This data can be easily tracked over time to moniter trends and guide any decisions should change be needed.
+* <img width="956" height="243" alt="image" src="https://github.com/user-attachments/assets/590ac3e0-b941-4c1a-9ed8-8ff76bae69e7" />
+
 
 **Q4: Identify equipment with a purchase cost over $500.**
 * **Managerial Justification:** Highlights high-value assets that require strict maintenance schedules to protect the investment.
