@@ -76,10 +76,7 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 
 **Q7: Trainers with more than 3 sessions and their average feedback rating.**
 * **Managerial Justification:** Management can evaluate trainer performance by combining session volume with member satisfaction scores. High sessions with low ratings flags trainers who may need coaching or supervision.
-* <img width="896" height="590" alt="Screenshot 2026-04-02 at 6 18 04 PM" src="https://github.com/user-attachments/assets/15eae955-7a65-43d0-b4c0-38dbcca99337" />
-
-
-
+* <img width="962" height="528" alt="Screenshot 2026-04-02 at 6 20 45 PM" src="https://github.com/user-attachments/assets/d85a5fb1-50c7-4dcf-8cf0-198599fe6ea7" />
 
 **Q8: Members who have never attended a class.**
 * **Managerial Justification:** Identifies "ghost members" for targeted re-engagement campaigns to reduce churn.
