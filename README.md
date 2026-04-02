@@ -74,9 +74,10 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * <img width="1935" height="787" alt="image" src="https://github.com/user-attachments/assets/50a86852-1c3d-4852-875a-7fa610803303" />
 
 
-**Q7: Classes with average feedback rating above 4. Results are ordered by rating descending.**
-* **Managerial Justification:** Managers can identify which classes consistently receive high ratings. These are the gym's strongest offerings and may warrant more session slots, promotion, or increased capacity.
-* <img width="1005" height="485" alt="Screenshot 2026-04-02 at 5 26 48 PM" src="https://github.com/user-attachments/assets/4ade0c1e-ff1b-48a3-a42f-aca8f04b44f4" />
+**Q7: Trainers with more than 3 sessions and their average feedback rating.**
+* **Managerial Justification:** Management can evaluate trainer performance by combining session volume with member satisfaction scores. High sessions with low ratings flags trainers who may need coaching or supervision.
+* <img width="896" height="590" alt="Screenshot 2026-04-02 at 6 18 04 PM" src="https://github.com/user-attachments/assets/15eae955-7a65-43d0-b4c0-38dbcca99337" />
+
 
 
 
