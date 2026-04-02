@@ -61,7 +61,8 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 
 **Q4: Identify equipment with a purchase cost over $500.**
 * **Managerial Justification:** Highlights high-value assets that require strict maintenance schedules to protect the investment.
-* **SQL:** `SELECT equipment_id, unit_cost FROM Equipment_Purchase WHERE unit_cost > 500;`
+* <img width="1671" height="746" alt="image" src="https://github.com/user-attachments/assets/7969ab30-c184-474f-aa8f-997c0a4def03" />
+
 
 ### 2. Complex Queries
 
