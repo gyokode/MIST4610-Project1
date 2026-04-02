@@ -74,9 +74,10 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * <img width="1935" height="787" alt="image" src="https://github.com/user-attachments/assets/50a86852-1c3d-4852-875a-7fa610803303" />
 
 
-**Q7: Trainers with an average session rating below 3.0.**
-* **Managerial Justification:** Flagging instructors for performance reviews based on direct member feedback.
-* **SQL:** `SELECT t.first_name, t.last_name, AVG(f.rating) FROM Trainers t JOIN Feedback f ON t.trainer_id = f.trainer_id GROUP BY t.trainer_id HAVING AVG(f.rating) < 3;`
+**Q7: Classes with average feedback rating above 4. Results are ordered by rating descending.**
+* **Managerial Justification:** Managers can identify which classes consistently receive high ratings. These are the gym's strongest offerings and may warrant more session slots, promotion, or increased capacity.
+* <img width="958" height="456" alt="Screenshot 2026-04-02 at 4 00 58 PM" src="https://github.com/user-attachments/assets/6ce62427-fef4-40fb-9922-fcd8fbad0fe7" />
+
 
 **Q8: Members who have never attended a class.**
 * **Managerial Justification:** Identifies "ghost members" for targeted re-engagement campaigns to reduce churn.
