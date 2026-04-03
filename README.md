@@ -105,13 +105,13 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 | Query | Joins | Subqueries | Group By | Aggregate Functions | Sorting |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | Q1 | | | | | |
-| Q2 | X | | X | X | |
-| Q3 | | | X | X | |
-| Q4 | | | | | |
+| Q2 | X | | | X | |
+| Q3 | X | | X | X | |
+| Q4 | | | | | X |
 | Q5 | X | | X | X | X |
 | Q6 | X | | X | X | X |
-| Q7 | X | | X | X | |
-| Q8 | X | X | X | X | X |
+| Q7 | X | X | X | X | |
+| Q8 | X | | X | X | X |
 | Q9 | X | | X | X | X |
 | Q10 | X | | X | X | X |
 
