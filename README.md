@@ -46,9 +46,10 @@ The physical layout of the studio is represented through Rooms and Equipment. Ro
 We have developed 10 unique queries (6 complex, 4 simple) to provide actionable business intelligence.
 
 ### 1. Simple Queries
-**Q1: List all trainers hired after January 1, 2024.**
-* **Managerial Justification:** Helps management identify which staff members are still in their introductory or training phases.
-* **SQL:** `SELECT first_name, last_name, hire_date FROM Trainers WHERE hire_date > '2024-01-01';`
+**List all rooms with a capacity of 20 or more people.**
+* **Managerial Justification:** Assists facility managers in identifying larger spaces suitable for hosting high-demand group classes or special events.
+* <img width="352" height="354" alt="Screenshot 2026-04-02 235531" src="https://github.com/user-attachments/assets/10158c6a-ac47-4b80-b470-921fcdce456e" />
+
 
 **Q2: Total amount spent on equipment purchases per vendor, ordered by spend descending.**
 * **Managerial Justification:** This query allows managers to see which vendors the gym relies on most financially. High-spending vendors could be candidates for renegotiated contracts and volume discounts, while low-spending vendors could be candidates for consolidation.
