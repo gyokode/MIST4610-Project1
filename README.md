@@ -53,9 +53,10 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 
 
 
-**Q2: **
-* **Managerial Justification:** 
-* 
+**Q2: Find the amount of class sessions held in large rooms**
+* **Managerial Justification: This allows managers to see how much these rooms are used, which informs scheduling decisions. For example, the managers may decide to increase the capacity of some classes if there are rooms open. These rooms could also be used for events or special occassions if they are open.** 
+* <img width="1454" height="439" alt="image" src="https://github.com/user-attachments/assets/9018e937-ae34-45aa-8d87-c7c35d3e301d" />
+
 
 **Q3: List which trainers teach the most classes in descending order.**
 * **Managerial Justification: This query allows us to see which trainers are the most involved with the boutique. Decisions related to the trainer's employment and pay could use this information.** 
