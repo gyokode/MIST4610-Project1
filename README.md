@@ -81,9 +81,10 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 * **Managerial Justification:** This query calculates the total income received from all payments, grouped by the specific membership plan. By identifying which tiers (such as "Unlimited" vs. "Basic") are the primary drivers of revenue, management can make decisions on which plans to market more aggressively and whether certain tiers need price adjustments to improve the studio's bottom line.
 * <img width="562" height="247" alt="Screenshot 2026-04-03 013757" src="https://github.com/user-attachments/assets/eb70503e-d35f-471e-ba50-7d92eb2e96d2" />
 
-**Q7: Trainers with more than 3 sessions and their average feedback rating.**
-* **Managerial Justification:** Management can evaluate trainer performance by combining session volume with member satisfaction scores. High sessions with low ratings flags trainers who may need coaching or supervision.
-* <img width="962" height="528" alt="Screenshot 2026-04-02 at 6 20 45 PM" src="https://github.com/user-attachments/assets/d85a5fb1-50c7-4dcf-8cf0-198599fe6ea7" />
+**Q7: How many different class types each member has attended, and how many total sessions.**
+* **Managerial Justification:** This helps identify which members are most active at the gym. These members could be good candidates for loyalty programs, discounts, or special activities at the boutique.
+* <img width="1977" height="1134" alt="image" src="https://github.com/user-attachments/assets/d2b09ae8-e9c3-4ecf-aa25-c8a66c3cbf14" />
+
 
 **Q8: List each trainer with their average member feedback rating, total number of reviews received, and an automatically assigned performance tier based on that rating.**
 * **Managerial Justification:** This gives management a clear view of trainer performance without manually interpreting raw scores. Top performers can be rewarded, while those flagged as "Needs Improvement" or "At Risk" can be prioritized for coaching or additional supervision.
