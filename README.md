@@ -81,18 +81,20 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * **Managerial Justification:** Management can evaluate trainer performance by combining session volume with member satisfaction scores. High sessions with low ratings flags trainers who may need coaching or supervision.
 * <img width="962" height="528" alt="Screenshot 2026-04-02 at 6 20 45 PM" src="https://github.com/user-attachments/assets/d85a5fb1-50c7-4dcf-8cf0-198599fe6ea7" />
 
-**Q8: Lists each trainer with their average member feedback rating, total number of reviews received, and an automatically assigned performance tier based on that rating.**
+**Q8: List each trainer with their average member feedback rating, total number of reviews received, and an automatically assigned performance tier based on that rating.**
 * **Managerial Justification:** This gives management a clear view of trainer performance without manually interpreting raw scores. Top performers can be rewarded, while those flagged as "Needs Improvement" or "At Risk" can be prioritized for coaching or additional supervision.
 * <img width="967" height="593" alt="Screenshot 2026-04-02 at 7 06 37 PM" src="https://github.com/user-attachments/assets/0f11baa9-18e6-482e-9bda-1fcc60947c87" />
 `
 
-**Q9: Top 3 most popular classes by attendance.**
-* **Managerial Justification:** Directs management to add more sessions for the most popular class types.
-* **SQL:** `SELECT c.class_name, COUNT(a.member_id) AS Attendance FROM Classes c JOIN Class_Session s ON c.class_id = s.class_id JOIN Attendance_Logs a ON s.session_id = a.session_id GROUP BY c.class_name ORDER BY Attendance DESC LIMIT 3;`
+**Q9: What is the total class attendance broken down by Membership Type?**
+* **Managerial Justification:** This query helps the studio understand which membership tiers are actually utilizing the facilities the most. By comparing the attendance counts of "Basic" members versus "Unlimited" members, management can decide if the class limits for lower tiers are appropriate or if there is a high potential for upselling active Basic members to a higher-tier plan.
+* <img width="593" height="254" alt="image" src="https://github.com/user-attachments/assets/075c36fe-4401-4f54-868d-a87bc345df02" />
 
-**Q10: Inventory count of equipment per room.**
-* **Managerial Justification:** Facilitates room setup audits and ensures equipment is distributed correctly for scheduled classes.
-* **SQL:** `SELECT r.room_name, e.equipment_name, re.quantity_in_room FROM Rooms r JOIN Rooms_has_Equipment re ON r.room_id = re.room_id JOIN Equipment e ON re.equipment_id = e.equipment_id;`
+
+**Q10: What is the average member feedback rating for each class difficulty level?**
+* **Managerial Justification:** By linking class difficulty (Beginner, Intermediate, Advanced) to member ratings, management can see if members are struggling with harder classes or if "Beginner" classes are not engaging enough. This helps the studio decide if they need to provide more instructor training for high-intensity sessions or adjust the curriculum for entry-level classes.
+* <img width="530" height="269" alt="Screenshot 2026-04-03 015452" src="https://github.com/user-attachments/assets/655875e5-d040-43a2-b8c3-358ec37923b3" />
+
 
 ## Query Feature Matrix
 | Query | Joins | Subqueries | Group By | Aggregate Functions | Sorting |
