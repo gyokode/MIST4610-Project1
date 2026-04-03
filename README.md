@@ -55,8 +55,9 @@ We have developed 10 unique queries (6 complex, 4 simple) to provide actionable 
 * **Managerial Justification:** This query allows managers to see which vendors the gym relies on most financially. High-spending vendors could be candidates for renegotiated contracts and volume discounts, while low-spending vendors could be candidates for consolidation.
 * <img width="979" height="433" alt="Screenshot 2026-04-02 at 6 03 48 PM" src="https://github.com/user-attachments/assets/1d9af581-e72d-41f5-bd10-4419c217e90d" />
 
-**Q3: Count total active members.**
-* **Managerial Justification:** 
+**Q3: List which trainers teach the most classes in descending order.**
+* **Managerial Justification: This query allows us to see which trainers are the most involved with the boutique. Decisions related to the trainer's employment and pay could use this information.** 
+* <img width="1858" height="763" alt="image" src="https://github.com/user-attachments/assets/b2eda1c3-103a-40ba-86e6-c94097373fe7" />
 
 
 **Q4: Identify equipment with a purchase cost over $500.**
