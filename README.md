@@ -101,15 +101,19 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 
 
 ## Query Feature Matrix
+
 | Query | Joins | Subqueries | Group By | Aggregate Functions | Sorting |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| Q1-4 | | | | X | X |
-| Q5 | X | | X | X | |
-| Q6 | X | | X | X | |
-| Q7 | | X | | | |
-| Q8 | X | | X | X | X |
-| Q9 | X | | | | |
-| Q10 | X | | | | |
+| Q1 | | | | | |
+| Q2 | X | | X | X | |
+| Q3 | | | X | X | |
+| Q4 | | | | | |
+| Q5 | X | | X | X | X |
+| Q6 | X | | X | X | X |
+| Q7 | X | | X | X | |
+| Q8 | X | X | X | X | X |
+| Q9 | X | | X | X | X |
+| Q10 | X | | X | X | X |
 
 ## Database Information
 * **Database Name:** ns_Sp26_61608_Group6
