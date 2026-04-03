@@ -46,7 +46,7 @@ The physical layout of the studio is represented through Rooms and Equipment. Ro
 We have developed 10 unique queries (4 simple, 6 complex) to provide actionable business intelligence.
 
 ### 1. Simple Queries
-**Q1: List the rooms with a capacity of 20 or more people, along with the room type.**
+**Q1: List the rooms with a capacity of 25 or more people, along with the room type.**
 * **Managerial Justification:** Assists facility managers in identifying larger spaces suitable for hosting high-demand group classes or special events.
 * <img width="1743" height="501" alt="image" src="https://github.com/user-attachments/assets/bba30830-db06-4fda-a14c-46fa20684bbe" />
 
