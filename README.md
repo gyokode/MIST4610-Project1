@@ -53,9 +53,9 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 
 
 
-**Q2: Total amount spent on equipment purchases per vendor, ordered by spend descending.**
-* **Managerial Justification:** This query allows managers to see which vendors the gym relies on most financially. High-spending vendors could be candidates for renegotiated contracts and volume discounts, while low-spending vendors could be candidates for consolidation.
-* <img width="979" height="433" alt="Screenshot 2026-04-02 at 6 03 48 PM" src="https://github.com/user-attachments/assets/1d9af581-e72d-41f5-bd10-4419c217e90d" />
+**Q2: **
+* **Managerial Justification:** 
+* 
 
 **Q3: List which trainers teach the most classes in descending order.**
 * **Managerial Justification: This query allows us to see which trainers are the most involved with the boutique. Decisions related to the trainer's employment and pay could use this information.** 
@@ -87,9 +87,9 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 * **Managerial Justification:** This gives management a clear view of trainer performance without manually interpreting raw scores. Top performers can be rewarded, while those flagged as "Needs Improvement" or "At Risk" can be prioritized for coaching or additional supervision.
 * <img width="967" height="593" alt="Screenshot 2026-04-02 at 7 06 37 PM" src="https://github.com/user-attachments/assets/0f11baa9-18e6-482e-9bda-1fcc60947c87" />
 
-**Q9: What is the total class attendance broken down by Membership Type?**
-* **Managerial Justification:** This query helps the studio understand which membership tiers are actually utilizing the facilities the most. By comparing the attendance counts of "Basic" members versus "Unlimited" members, management can decide if the class limits for lower tiers are appropriate or if there is a high potential for upselling active Basic members to a higher-tier plan.
-* <img width="593" height="254" alt="image" src="https://github.com/user-attachments/assets/075c36fe-4401-4f54-868d-a87bc345df02" />
+**Q9:Total amount spent on equipment purchases per vendor, ordered by spend descending**
+* **Managerial Justification:** This query allows managers to see which vendors the gym relies on most financially. High-spending vendors could be candidates for renegotiated contracts and volume discounts, while low-spending vendors could be candidates for consolidation.
+* <img width="979" height="433" alt="Screenshot 2026-04-02 at 6 03 48 PM" src="https://github.com/user-attachments/assets/1d9af581-e72d-41f5-bd10-4419c217e90d" />
 
 
 **Q10: What is the average member feedback rating for each class difficulty level?**
