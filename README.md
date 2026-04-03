@@ -43,7 +43,7 @@ The physical layout of the studio is represented through Rooms and Equipment. Ro
 
 
 ## Ten Queries
-We have developed 10 unique queries (6 complex, 4 simple) to provide actionable business intelligence.
+We have developed 10 unique queries (4 simple, 6 complex) to provide actionable business intelligence.
 
 ### 1. Simple Queries
 **Q1: List the number of rooms with a capacity of 20 or more people, along with the room type.**
