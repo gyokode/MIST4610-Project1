@@ -117,3 +117,4 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 
 ## Database Information
 * **Database Name:** ns_Sp26_61608_Group6
+* **Stored Procedures:** All queries are implemented as stored procedures following the `TP_Qx` format (e.g., `CALL TP_Q1();`).
