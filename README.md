@@ -46,7 +46,7 @@ The physical layout of the studio is represented through Rooms and Equipment. Ro
 We have developed 10 unique queries (4 simple, 6 complex) to provide actionable business intelligence.
 
 ### 1. Simple Queries
-**Q1: List the rooms with a capacity of 25 or more people, along with the room type.**
+**Q1: List the rooms with a capacity of 25 or more people, along with the room type. **
 * **Managerial Justification:** Assists facility managers in identifying larger spaces suitable for hosting high-demand group classes or special events.
 * <img width="1743" height="501" alt="image" src="https://github.com/user-attachments/assets/bba30830-db06-4fda-a14c-46fa20684bbe" />
 
@@ -54,13 +54,14 @@ We have developed 10 unique queries (4 simple, 6 complex) to provide actionable 
 
 
 **Q2: Find the amount of class sessions held in large rooms**
-* **Managerial Justification: This allows managers to see how much these rooms are used, which informs scheduling decisions. For example, the managers may decide to increase the capacity of some classes if there are rooms open. These rooms could also be used for events or special occassions if they are open.** 
+* **Managerial Justification:** This allows managers to see how much these rooms are used, which informs scheduling decisions. For example, the managers may decide to increase the capacity of some classes if there are rooms open. These rooms could also be used for events or special occassions if they are open. 
 * <img width="1454" height="439" alt="image" src="https://github.com/user-attachments/assets/9018e937-ae34-45aa-8d87-c7c35d3e301d" />
 
 
-**Q3: List which trainers teach the most classes in descending order.**
-* **Managerial Justification: This query allows us to see which trainers are the most involved with the boutique. Decisions related to the trainer's employment and pay could use this information.** 
-* <img width="1858" height="763" alt="image" src="https://github.com/user-attachments/assets/b2eda1c3-103a-40ba-86e6-c94097373fe7" />
+**Q3: List the max amount of equipment in each room.**
+* **Managerial Justification:** This allows managers to see if any rooms are overloaded or if the equipment is well distributed. Proposed layout changes could use this information. 
+* <img width="1579" height="717" alt="image" src="https://github.com/user-attachments/assets/447a75fd-448f-4dea-9e1e-7d918a38e2b1" />
+
 
 
 **Q4: Identify equipment with a purchase cost over $500.**
