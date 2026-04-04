@@ -6,7 +6,7 @@
 **Team Members:**
 1. Gio Kim @gyokode
 2. Matheo Brooks @matheobrooks-cpu
-3. Luka Gangemi @lukagangemi
+3. Luka Gangemi [@lukagangemi](https://github.com/lukagangemi)
 4. Luke Piazza @lukepiazza479
 
 # Scenario Description
